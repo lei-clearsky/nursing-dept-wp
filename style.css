@@ -159,7 +159,7 @@ and Blueprint http://www.blueprintcss.org/
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
-	background: url(../images/Sigma-Theta-Tau.jpg) no-repeat;
+	background: url("http://localhost:8888/wordpress-test/wp-content/uploads/2014/07/Sigma-Theta-Tau.jpg") no-repeat;
 	margin: 0 auto;
 }
 	
@@ -169,7 +169,7 @@ and Blueprint http://www.blueprintcss.org/
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
-	background: url(../images/president.jpg) no-repeat;
+	background: url("http://localhost:8888/wordpress-test/wp-content/uploads/2014/07/president.jpg") no-repeat;
 	margin: 0 auto;
 }
 /*Footer*/

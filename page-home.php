@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Homepage
+ * Template Name: Homepage - MTAL
  * The template for displaying all pages.
  *
  * This is the template that displays all pages by default.
@@ -33,27 +33,7 @@ get_header(); ?>
 		</div>
 		
 		<div class="sixteen columns" style="margin: 30px 0;">
-			<h2 style="text-align:center; margin-bottom: 20px;">News and Events</h2>
-			<div class="sixteen clearfix">
-				<div class="eight columns alpha" >
-				<div class="events-container">
-					<h4>Saturday May 10th, 11:00 am - 2:00 pm </h4>Please join us for a Lunch and Learn Education offering - The ABCs of Peer Review Publishing for Nurses on <strong>Saturday May 10th, 11:00 am - 2:00 pm Annunciation Center, College of Saint Elizabeth, 2 convent Station, Morris Town, NJ, 07960</strong>. 
-					
-					<br />Presenter: Kathleen Motacki, Clinical Associate Professor, St Peter's University Nurses $20.00 and students $10.00
-				</div>
-				</div>
-				
-				<div class="eight columns omega">
-				<div class="news-container">
-					<h4>2014 Chapter elections</h4>
-Chapter members, please take a moment to review results of 2014 Chapter elections.
-<h4>2013 induction Photos on facebook</h4>Check outyour 2013 induction Photos on facebook - search Mu theta-at-Large Chapter.
-
-<h4>Board and Committee Members Meeting</h4>
-Time and Venue - TBA
-</div>
-				</div>
-			</div>		
+			<?php get_template_part("content", "page"); ?>	
 			
 		</div>
 		

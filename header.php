@@ -45,7 +45,15 @@
 	<div class="container">
 		<div class="sixteen columns">
 
-			<nav class="nav" style="margin-top: 25px">  
+			<nav class="nav" style="margin-top: 25px"> 
+				<?php wp_nav_menu(
+					array(
+						'theme_location' => 'primary',
+						'menu_class' => 'nav-list',
+						'fallback_cb' => '',
+						'walker' => new MTAL_Walker_Nav_Menu(),
+					)
+				); ?> 
 			<ul class="nav-list"> 
 				<li><a href="#">Links</a></li> 
 				<li><a href="#">Awards</a></li> 
@@ -60,7 +68,7 @@
 			</ul> 
 			  
 			</nav>
-			<div class="logo"><img src="images/hson.jpg"></div>
+			<div class="logo"><img src="<?php echo wp_get_attachment_url( 92 ); ?>"></div>
 		
 		</div>
 
